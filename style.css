@@ -1,0 +1,47 @@
+/*---------------------------
+	Style Name:
+	Version:
+	URI:
+	Author:
+	Date:
+---------------------------*/
+/*css reset*/
+html { color: #333; background: #fff; }
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:14px/1.5 verdana,simsun,sans-serif;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+ul,ol{list-style:none;}
+a{color: #39c;text-decoration:none;}
+a:hover,.current a{background: #39c;color: #fff;}
+legend{color:#000;}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+
+.clearfix:after { content: '\0020'; display: block; height: 0; clear: both; }
+.clearfix { *zoom: 1; }
+
+/*-----------------------------------------------------------------*/
+.wrap{width: 950px;margin: 0 auto;}
+
+#home .bg{width: 600px;height: 520px;margin: auto;background: url(clover.jpg) 0 0 no-repeat;}
+#home #nav{display: inline;float: right;margin: 120px 170px 0 0;}
+#home #nav li{margin: 6px 0;}
+
+
+.subpage .content{font-size: 12px;}
+.subpage .main{float: left;width: 650px;}
+.subpage .aside{float: right;width: 240px;padding: 0 10px;}
+.subpage .main h3{font-size: 14px;margin: 10px 0 5px;font-weight: normal;}
+.subpage .mod_photo{float: right;margin-right: 10px;}
+.subpage .mod_photo img{width: 150px;height: 200px;}
+.subpage .nav {margin: 10px 0;padding: 5px;border-bottom: 1px solid #ccc;}
+.subpage .nav li{float: left;margin-right: 20px;}
+.subpage .mod_sum{line-height: 24px;}
+.subpage .mod_sum th{text-align: right;padding-right: 10px;font-weight: normal;}
+.subpage .mod_c1{margin: 20px 0;}
+
+.footer{margin-top: 20px;padding: 10px 0;text-align: center;font-size: 12px;}
+
+.tongji{display: none;}
