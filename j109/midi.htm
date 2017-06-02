@@ -1,11 +1,11 @@
-<!---ª©Åv«Å§i¥²¶·«O¯d --->
+<!---ç‰ˆæ¬Šå®£å‘Šå¿…é ˆä¿ç•™ --->
 <!--Shinobu's BGM Player 1.5 HTML File-->
 <!--Copyleft (C) 2000 - 2001 by Shinobu All Rights Unreversed-->
-<!--¤¤¤å¤Æ : Cora - E-mail: wait4mayday@hotmail.com-->
+<!--ä¸­æ–‡åŒ– : Cora - E-mail: wait4mayday@hotmail.com-->
 
-<!--µ{¦¡­×§ï : Sharon-->
+<!--ç¨‹å¼ä¿®æ”¹ : Sharon-->
 <!--E - mail : forsharon@hotmail.com-->
-<!--ºô¯¸ºô§} : http://sharon.has.it-->
+<!--ç¶²ç«™ç¶²å€ : http://sharon.has.it-->
 	 
 <html>
 
@@ -17,41 +17,41 @@
 <script LANGUAGE=javascript src="../j109/midi.js">
 </script>
 <script language=Javascript>
-//¿ï¾Üºq¦±¼½©ñ§Î¦¡
-//0 -> «ö·Óºq¦±±Æ¦C¶¶§Ç¼½©ñ
-//1 -> ÀH¾÷¼½©ñ
+//é¸æ“‡æ­Œæ›²æ’­æ”¾å½¢å¼
+//0 -> æŒ‰ç…§æ­Œæ›²æ’åˆ—é †åºæ’­æ”¾
+//1 -> éš¨æ©Ÿæ’­æ”¾
 var playMode = 0;
 
 
-//¨C­ººq¤§¶¡ªº¥ğ®§®É¶¡(¬í)
+//æ¯é¦–æ­Œä¹‹é–“çš„ä¼‘æ¯æ™‚é–“(ç§’)
 var restLength = 1;
 
 
 
-//¬O§_Åã¥Üºq¦±¦WºÙ
+//æ˜¯å¦é¡¯ç¤ºæ­Œæ›²åç¨±
 var showTitle = 1;
 
 
-//¬O§_ºq¦±¤@¸ü¤J´N¦Û°Ê¼½©ñ
+//æ˜¯å¦æ­Œæ›²ä¸€è¼‰å…¥å°±è‡ªå‹•æ’­æ”¾
 var doFirstPlay = 1;
 
-//¥H¤U¬O³sµ²ºq¦±URL»yªk(¥i¼W¥[/´î¤Ö, ¦ı¨C­ººqªº¼½©ñ®É¶¡¼Æ¦r¤@©w¤£¯à¬Û¦P)
-//ºq¦±Ãş«¬³Ì¦n¬O WMA MIDI & ASF !
-//addbgm('ºq¦±³sµ²¦ì¸m ', '­ì°ÛªÌ -- ºq¦±¦WºÙ', ¼½©ñ®É¶¡ªø«×[¥H¬í­p]); 
-//(¨Ò¦p) addbgm('http://www.server.com/folder/file.wma','Artist - Title',123);
-addbgm('huahuo.mp3','ªá¤õ',233);
-addbgm('qingzai2.wma','±¡?',290);
-addbgm('1001.wma','¥Õ?ªL',309);
-addbgm('weiai1.wma','??¯º?¬y?',221);
-addbgm('tata.mp3','µó¨¤ªº¯¬ºÖ',268);
+//ä»¥ä¸‹æ˜¯é€£çµæ­Œæ›²URLèªæ³•(å¯å¢åŠ /æ¸›å°‘, ä½†æ¯é¦–æ­Œçš„æ’­æ”¾æ™‚é–“æ•¸å­—ä¸€å®šä¸èƒ½ç›¸åŒ)
+//æ­Œæ›²é¡å‹æœ€å¥½æ˜¯ WMA MIDI & ASF !
+//addbgm('æ­Œæ›²é€£çµä½ç½® ', 'åŸå”±è€… -- æ­Œæ›²åç¨±', æ’­æ”¾æ™‚é–“é•·åº¦[ä»¥ç§’è¨ˆ]); 
+//(ä¾‹å¦‚) addbgm('http://www.server.com/folder/file.wma','Artist - Title',123);
+addbgm('huahuo.mp3','èŠ±ç«',233);
+addbgm('qingzai2.wma','æƒ…?',290);
+addbgm('1001.wma','ç™½?æ—',309);
+addbgm('weiai1.wma','??ç¬‘?æµ?',221);
+addbgm('tata.mp3','è¡—è§’çš„ç¥ç¦',268);
 addbgm('Take_Me_To_Your_Heart.mp3','Take_Me_To_Your_Heart',238);
-addbgm('hdh.mp3','¤ô¤ì¦~?-½¹½ºªá',214);
-addbgm('079.mp3','¦óÍR-?¤lªá?',233);
+addbgm('hdh.mp3','æ°´æœ¨å¹´?-è´è¶èŠ±',214);
+addbgm('079.mp3','ä½•ç‚…-?å­èŠ±?',233);
 
 </script>
 <!--End script-->
 </head>
-<!--BODY ùØªº OnLoad="init_bgm()" ¬°µ{¦¡»yªk¤§¤@, ½Ğ¤Å§R°£®@!-->
+<!--BODY è£çš„ OnLoad="init_bgm()" ç‚ºç¨‹å¼èªæ³•ä¹‹ä¸€, è«‹å‹¿åˆªé™¤å“¦!-->
 <body OnLoad="init_bgm()" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" bgcolor="#FFFFFF" text="#999999">
 <!--BGM Script BODY Start-->
 <div align="center">
@@ -60,7 +60,7 @@ addbgm('079.mp3','¦óÍR-?¤lªá?',233);
     <tr>
       <td height="50">      <form name="form1">
         <p>
-<!--¥H¤U»yªk³Ì¦n¤£­n­×§ï-->
+<!--ä»¥ä¸‹èªæ³•æœ€å¥½ä¸è¦ä¿®æ”¹-->
 <object classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95" width="1" height="1" vspace="1" hspace="1" align="middle" id="Music" style="left:0px; top:0px;">
 <param name="AllowChangeDisplaySize" value="-1">
 <param name="AllowScan" value="-1">
@@ -121,12 +121,12 @@ addbgm('079.mp3','¦óÍR-?¤lªá?',233);
   <param name="SAMIStyle" value>
   <param name="SAMIFileName" value>
 </object><span style="font-size:9pt;"> <font color="white">
-<input type="text" name="stitle" size="27" value="ready" style="font-family:·s²Ó©úÅé,sans-serif; font-size:9pt; color:#999999; border-left-style:solid; border-left-width:1; border-right-style:solid; border-right-width:1; border-top-style:solid; border-top-width:1px; border-bottom-style:solid; border-bottom-width:1)" readonly>
-&nbsp;<a href="#" OnClick = "preTrack();" OnMouseOver="window.status=('¤W¤@­º'); return true;" OnMouseOut="window.status=(''); return true;"><img src="../j109/forward.gif" border="0" align="middle" width="16" height="16"></a> 
-        <a href="#" OnClick = "stopTrack();" OnMouseOver="window.status=('°±¤î'); return true;" OnMouseOut="window.status=(''); return true;">
-<img src="../j109/stop.gif" border="0" align="middle" alt="Stop" width="6" height="16"></a> <a href="#" OnClick = "play();" OnMouseOver="window.status=('¼½©ñ'); return true;" OnMouseOut="window.status=(''); return true;">
+<input type="text" name="stitle" size="27" value="ready" style="font-family:æ–°ç´°æ˜é«”,sans-serif; font-size:9pt; color:#999999; border-left-style:solid; border-left-width:1; border-right-style:solid; border-right-width:1; border-top-style:solid; border-top-width:1px; border-bottom-style:solid; border-bottom-width:1)" readonly>
+&nbsp;<a href="#" OnClick = "preTrack();" OnMouseOver="window.status=('ä¸Šä¸€é¦–'); return true;" OnMouseOut="window.status=(''); return true;"><img src="../j109/forward.gif" border="0" align="middle" width="16" height="16"></a> 
+        <a href="#" OnClick = "stopTrack();" OnMouseOver="window.status=('åœæ­¢'); return true;" OnMouseOut="window.status=(''); return true;">
+<img src="../j109/stop.gif" border="0" align="middle" alt="Stop" width="6" height="16"></a> <a href="#" OnClick = "play();" OnMouseOver="window.status=('æ’­æ”¾'); return true;" OnMouseOut="window.status=(''); return true;">
 <img src="../j109/play.gif" border="0" align="middle" alt="Play" width="6" height="16"></a> 
-    <a href="#" OnCLick = "nextTrack();" OnMouseOver="window.status=('¤U¤@­º'); return true;" OnMouseOut="window.status=(''); return true;">
+    <a href="#" OnCLick = "nextTrack();" OnMouseOver="window.status=('ä¸‹ä¸€é¦–'); return true;" OnMouseOut="window.status=(''); return true;">
 <img src="../j109/backward.gif" border="0" align="middle" width="16" height="16"></a> </font></span></p>
 </form></td>
     </tr>
